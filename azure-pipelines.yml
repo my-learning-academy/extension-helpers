@@ -39,4 +39,4 @@ steps:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg'
     nuGetFeedType: 'external'
-    publishFeedCredentials: 'my-learning-academy'
+    publishFeedCredentials: 'ExtensionHelpersFeed'
