@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>net8.0</TargetFramework>
+		<TargetFramework>net9.0</TargetFramework>
 		<RootNamespace>extension.helpers</RootNamespace>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
@@ -8,22 +8,20 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<Version>1.0.1-rc</Version>
+		<Version>1.0.1</Version>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/my-learning-academy/extension-helpers.git</RepositoryUrl>
 		<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
-		<PackageIcon>f5669de3-f48c-4d30-abbc-222d38325394.jpg</PackageIcon>
+		<PackageIcon>extension-helpers-library-logo.png</PackageIcon>
 		<Title>Extension Helpers Library</Title>
 		<Company>Shohail</Company>
 		<Authors>Shohail</Authors>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Include="..\..\..\..\Downloads\f5669de3-f48c-4d30-abbc-222d38325394.jpg">
+	  <None Update="extension-helpers-library-logo.png">
 	    <Pack>True</Pack>
 	    <PackagePath>\</PackagePath>
 	  </None>
-	</ItemGroup>
-	<ItemGroup>
 	  <None Update="README.md">
 	    <Pack>True</Pack>
 	    <PackagePath>\</PackagePath>
