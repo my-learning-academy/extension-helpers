@@ -1,4 +1,4 @@
-﻿namespace extension.helpers;
+﻿namespace extension.helpers.src;
 
 public static partial class CollectionExtensions
 {

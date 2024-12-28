@@ -1,7 +1,6 @@
-﻿namespace extension.helpers
+﻿namespace extension.helpers.src;
+
+public static partial class StringExtensions
 {
-    public static partial class StringExtensions
-    {
-        private static readonly char[] separator = [' ', '.', '?'];
-    }
+    private static readonly char[] separator = [' ', '.', '?'];
 }
